@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-searchpanes-bs4",
-    "version": "1.0.0",
+    "version": "0.0.5",
     "description": "SearchPanes for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "files": [
         "css/**/*.css",
@@ -10,7 +10,7 @@
     "style": "css/searchPanes.bootstrap4.css",
     "keywords": [
         "Search",
-	"Filter",
+        "Filter",
         "DataTables",
         "jQuery",
         "table",
@@ -25,8 +25,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-bs4": "^1.10.19",
-        "datatables.net-searchpanes": "1.0.0"
+        "datatables.net-bs4": "^1.10.15",
+        "datatables.net-searchpanes": "0.0.5"
     },
     "repository": {
         "type": "git",
