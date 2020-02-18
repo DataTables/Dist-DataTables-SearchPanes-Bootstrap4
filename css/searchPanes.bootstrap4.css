@@ -57,7 +57,7 @@ div.dtsp-searchPanes {
   clear: both;
 }
 div.dtsp-searchPanes button.btn {
-  margin: 1px;
+  margin: 0;
 }
 div.dtsp-searchPanes button.dtsp-clearAll {
   max-width: 50px;
@@ -95,13 +95,10 @@ div.dtsp-searchPane div.dataTables_wrapper div.row div.dataTables_filter {
 div.dtsp-searchPane div.btn-group {
   padding: 0px;
 }
-div.dtsp-searchPane div.btn-group button.btn {
-  margin: 0;
-  height: 40px;
-}
 div.dtsp-searchPane div.dtsp-topRow {
   padding: 0px !important;
-  margin: 0px !important;
+  margin: 0px;
+  margin-bottom: 0.5rem;
 }
 div.dtsp-searchPane div.dtsp-topRow div.dtsp-subRows {
   padding: 0px !important;
@@ -120,7 +117,6 @@ div.dtsp-searchPane .col-sm-12 {
   padding: 5px;
 }
 div.dtsp-searchPane .input-group {
-  height: 40px !important;
   padding: 0px !important;
 }
 div.dtsp-searchPane .input-group .input-group-append {
@@ -171,12 +167,15 @@ div.dtsp-panes {
 }
 div.dtsp-panes div.dtsp-titleRow {
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 div.dtsp-panes div.dtsp-title {
   float: left;
-  margin: 20px;
   margin-bottom: 0px;
   margin-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
 }
 div.dtsp-panes button.dtsp-clearAll {
   float: right;
