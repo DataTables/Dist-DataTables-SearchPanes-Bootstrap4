@@ -6,6 +6,9 @@ div.dtsp-topRow {
   align-content: flex-start;
   align-items: flex-start;
 }
+div.dtsp-topRow input.dtsp-search {
+  text-overflow: ellipsis;
+}
 div.dtsp-topRow div.dtsp-subRow1 {
   display: flex;
   flex-direction: row;
