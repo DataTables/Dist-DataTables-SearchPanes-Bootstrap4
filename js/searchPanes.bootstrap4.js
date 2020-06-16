@@ -1,7 +1,7 @@
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD
-        define(['jquery', 'datatables.net-bs4', 'datatables.net-searchPanes'], function ($) {
+        define(['jquery', 'datatables.net-bs4', 'datatables.net-searchpanes'], function ($) {
             return factory($, window, document);
         });
     }
@@ -15,7 +15,7 @@
                 $ = require('datatables.net-bs4')(root, $).$;
             }
             if (!$.fn.dataTable.searchPanes) {
-                require('datatables.net-searchPanes')(root, $);
+                require('datatables.net-searchpanes')(root, $);
             }
             return factory($, root, root.document);
         };
