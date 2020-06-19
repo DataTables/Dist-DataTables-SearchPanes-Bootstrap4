@@ -194,6 +194,9 @@ div.dtsp-searchPane div.dtsp-topRow div.dtsp-subRows {
 div.dtsp-searchPane div.dtsp-topRow div.row {
   width: 100%;
 }
+div.dtsp-searchPane div.dtsp-topRow button {
+  min-width: 35px;
+}
 div.dtsp-searchPane thead {
   display: none;
 }
