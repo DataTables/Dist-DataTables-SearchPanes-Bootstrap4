@@ -196,6 +196,10 @@ div.dtsp-searchPane div.dtsp-topRow div.row {
 }
 div.dtsp-searchPane div.dtsp-topRow button {
   min-width: 35px;
+  max-width: 35px;
+}
+div.dtsp-searchPane div.dtsp-topRow button.clearButton {
+  padding-left: 10px;
 }
 div.dtsp-searchPane thead {
   display: none;
