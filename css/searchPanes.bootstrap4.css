@@ -259,6 +259,7 @@ div.dtsp-searchPane div.dataTables_scrollBody table tbody tr div.dtsp-nameCont s
   display: inline-block;
   width: calc(100% - 30px);
   vertical-align: middle;
+  white-space: nowrap;
 }
 div.dtsp-searchPane div.dataTables_scrollBody table tbody tr div.dtsp-nameCont span.badge {
   min-width: 30px;
