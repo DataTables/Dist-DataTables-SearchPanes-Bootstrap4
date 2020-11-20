@@ -133,6 +133,9 @@ div.dt-button-collection {
 div.dtsp-panesContainer {
   width: 100%;
 }
+div.dtsp-panesContainer div.dataTables_wrapper {
+  width: 100%;
+}
 
 div.dtsp-searchPanes {
   display: flex;
