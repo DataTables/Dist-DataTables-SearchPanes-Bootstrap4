@@ -14,9 +14,7 @@
             if (!$ || !$.fn.dataTable) {
                 $ = require('datatables.net-bs4')(root, $).$;
             }
-            console.log($.fn.dataTable);
             if (!$.fn.dataTable.SearchPanes) {
-                console.log("not present");
                 require('datatables.net-searchpanes')(root, $);
             }
             return factory($, root, root.document);
