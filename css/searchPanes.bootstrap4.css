@@ -23,6 +23,7 @@ div.dtsp-topRow div.dtsp-subRow1 {
 }
 div.dtsp-topRow div.dtsp-subRow1 div.dtsp-searchCont {
   position: relative;
+  width: 100%;
 }
 div.dtsp-topRow div.dtsp-subRow1 input {
   padding-right: 2em;
