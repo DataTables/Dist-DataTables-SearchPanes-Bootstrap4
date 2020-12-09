@@ -30,7 +30,6 @@
     $.extend(true, DataTable.SearchPane.classes, {
         buttonGroup: 'btn-group',
         disabledButton: 'disabled',
-        dull: '',
         narrow: 'col',
         pane: {
             container: 'table'
@@ -48,6 +47,7 @@
     $.extend(true, DataTable.SearchPanes.classes, {
         clearAll: 'dtsp-clearAll btn btn-light',
         container: 'dtsp-searchPanes',
+        disabledButton: 'disabled',
         panes: 'dtsp-panes dtsp-panesContainer',
         title: 'dtsp-title',
         titleRow: 'dtsp-titleRow'
