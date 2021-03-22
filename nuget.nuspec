@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>datatables.net-searchpanes-bs4</id>
-        <version>1.1.1</version>
-        <description>SearchPanes for DataTables</description>
-        <authors>SpryMedia Ltd</authors>
-        <projectUrl>http://datatables.net</projectUrl>
-        <license type="expression">MIT</license>
-        <tags>searchpanes DataTables jQuery table Bootstrap4</tags>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4.git"/>
-        <dependencies>
-            <dependency id="jquery" version="1.7.0"/>
-            <dependency id="datatables.net" version="1.10.15"/>
-            <dependency id="datatables.net-searchpanes" version="1.1.1"/>
-            <dependency id="bootstrap" version="4.*"/>
-        </dependencies>
-    </metadata>
-    <files>
-        <file src="js/searchpanes.bootstrap4.js"/>
-        <file src="js/searchpanes.bootstrap4.min.js"/>
-        <file src="css/searchpanes.bootstrap4.css"/>
-        <file src="css/searchpanes.bootstrap4.min.css"/>
-    </files>
+  <metadata>
+    <id>datatables.net-searchpanes-bs4</id>
+    <version>1.1.1</version>
+    <description>SearchPanes for DataTables</description>
+    <authors>SpryMedia Ltd</authors>
+    <projectUrl>http://datatables.net</projectUrl>
+    <license type="expression">MIT</license>
+    <tags>searchpanes DataTables jQuery table Bootstrap4</tags>
+    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4.git"/>
+    <dependencies>
+      <dependency id="jquery" version="1.7.0"/>
+      <dependency id="datatables.net" version="1.10.15"/>
+      <dependency id="datatables.net-searchpanes" version="1.1.1"/>
+      <dependency id="bootstrap" version="4.*"/>
+    </dependencies>
+    <contentFiles>
+      <files include="**/*" buildAction="Content"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="js/searchpanes.bootstrap4.js" target="content\Scripts"/>
+    <file src="js/searchpanes.bootstrap4.min.js" target="content\Scripts"/>
+    <file src="css/searchpanes.bootstrap4.css" target="content\Content"/>
+    <file src="css/searchpanes.bootstrap4.min.css" target="content\Content"/>
+    <file src="js/searchpanes.bootstrap4.js" target="contentFiles\any\any\wwwroot\js"/>
+    <file src="js/searchpanes.bootstrap4.min.js" target="contentFiles\any\any\wwwroot\js"/>
+    <file src="css/searchpanes.bootstrap4.css" target="contentFiles\any\any\wwwroot\css"/>
+    <file src="css/searchpanes.bootstrap4.min.css" target="contentFiles\any\any\wwwroot\css"/>
+  </files>
 </package>
