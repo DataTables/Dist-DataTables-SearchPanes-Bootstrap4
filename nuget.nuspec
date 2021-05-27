@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-searchpanes-bs4</id>
-    <version>1.1.1</version>
-    <description>SearchPanes for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>searchpanes DataTables jQuery table Bootstrap4</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-searchpanes" version="1.1.1"/>
-      <dependency id="bootstrap" version="4.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/searchpanes.bootstrap4.js" target="content\Scripts"/>
-    <file src="js/searchpanes.bootstrap4.min.js" target="content\Scripts"/>
-    <file src="css/searchpanes.bootstrap4.css" target="content\Content"/>
-    <file src="css/searchpanes.bootstrap4.min.css" target="content\Content"/>
-    <file src="js/searchpanes.bootstrap4.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/searchpanes.bootstrap4.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/searchpanes.bootstrap4.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/searchpanes.bootstrap4.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.2.2</version>
+        <id>datatables.net-searchpanes-bs4</id>
+        <description>This is SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>SearchPanes  search  filtering  Bootstrap  Bootstrap4  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-searchpanes" version=">=1.2.2"/>
+            <dependency id="datatables.net-bs4" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/searchPanes.bootstrap4.js" target="content\Scripts"/>
+        <file src="js/searchPanes.bootstrap4.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/searchPanes.bootstrap4.min.js" target="content\Scripts"/>
+        <file src="js/searchPanes.bootstrap4.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/searchPanes.bootstrap4.css" target="content\Content"/>
+        <file src="css/searchPanes.bootstrap4.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/searchPanes.bootstrap4.min.css" target="content\Content"/>
+        <file src="css/searchPanes.bootstrap4.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/searchPanes.bootstrap4.d.ts" target="content\Scripts"/>
+        <file src="types/searchPanes.bootstrap4.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

@@ -1,27 +1,35 @@
-
 {
-	"name": "datatables.net/datatables.net-searchpanes-bs4",
-	"version": "1.1.1",
-	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the SearchPanes extension for DataTables.", 
-	"homepage": "http://www.datatables.net/",
-	"authors": [{
-		"name": "SpryMedia",
-		"homepage": "https://datatables.net"
-	}], 
-	"license": [
-		"MIT"
-	],
+    "version": "1.2.2",
+    "name": "datatables.net/datatables.net-searchpanes-bs4",
+    "description": "The SearchPanes extension for DataTables provides improved Searching functionality allowing users to select options from a Pane which will then in turn search the DataTable and return the relevant results. There are multiple configuration options available to enhance SearchPanes. This is SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
-	"support": {
-		"forum": "https://datatables.net/forums",
-		"source": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4/"
-    },
-    "keywords": ["DataTables", "jQuery", "table", "searchpanes", "Bootstrap4"],
+    "keywords": [
+        "SearchPanes",
+ "search",
+ "filtering",
+        "Bootstrap",
+ "Bootstrap4",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
     "require": {
-        "components/jquery":">=3.5.1",
-        "datatables.net/datatables.net":">=1.10.15",
-        "datatables.net/datatables.net-searchpanes":">=1.1.1",
-        "twbs/bootstrap": "4.*"
+        "datatables.net/datatables.net-searchpanes": ">=1.2.2",
+        "datatables.net/datatables.net-bs4": ">=1.10.24"
     }
 }

@@ -1,16 +1,15 @@
 {
-    "css": [
-        "css/searchPanes.bootstrap4.css",
-        "css/searchPanes.bootstrap4.min.css"
-    ],
     "js": [
         "js/searchPanes.bootstrap4.js",
         "js/searchPanes.bootstrap4.min.js"
+    ],
+    "css": [
+        "css/searchPanes.bootstrap4.css",
+        "css/searchPanes.bootstrap4.min.css"
     ],
     "types": [
         "types/searchPanes.bootstrap4.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
-    "last-sync": "0f448e1e9893ef32b49a3e0867889c8f0742c525",
     "last-tag": "1.2.2"
 }
