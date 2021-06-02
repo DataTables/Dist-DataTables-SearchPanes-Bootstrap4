@@ -1,6 +1,6 @@
 # SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
-This package contains a built distribution of the [SearchPanes extension](https://datatables.net/extensions/SearchPanes) for [DataTables](https://datatables.net/) with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
+This package contains a built distribution of the [SearchPanes extension](https://datatables.net/extensions/searchpanes) for [DataTables](https://datatables.net/) with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
 
 The SearchPanes extension for DataTables provides improved Searching functionality allowing users to select options from a "Pane" which will then in turn search the DataTable and return the relevant results. There are multiple configuration options available to enhance SearchPanes.
 

@@ -250,3 +250,8 @@ div.dtsp-panesContainer div.dtsp-searchPane div.dataTables_wrapper div.dtsp-name
 div.dtsp-panesContainer button.disabled {
   cursor: not-allowed;
 }
+
+div.dt-button-collection div.dtsp-panesContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
