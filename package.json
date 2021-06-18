@@ -23,7 +23,7 @@
     ],
     "dependencies": {
         "datatables.net-searchpanes": ">=1.3.0",
-        "datatables.net-bs4": ">=1.10.26-dev",
+        "datatables.net-bs4": ">=1.10.25",
         "jquery": ">=1.7"
     },
     "moduleType": [
