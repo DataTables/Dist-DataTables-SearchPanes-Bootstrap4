@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>SearchPanes  search  filtering  Bootstrap  Bootstrap4  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchpanes" version=">=1.3.0"/>
-            <dependency id="datatables.net-bs4" version=">=1.10.25"/>
+            <dependency id="datatables.net-searchpanes" version="1.3.0"/>
+            <dependency id="datatables.net-bs4" version="1.10.25"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
