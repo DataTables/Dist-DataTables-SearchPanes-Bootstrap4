@@ -189,6 +189,7 @@ div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dts
   vertical-align: middle;
   white-space: nowrap;
   flex-grow: 1;
+  text-align: left;
 }
 div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   display: inline-block;
