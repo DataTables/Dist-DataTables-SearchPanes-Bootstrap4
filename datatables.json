@@ -11,6 +11,6 @@
         "types/searchPanes.bootstrap4.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
-    "last-tag": "1.4.0",
+    "last-tag": "2.0.0",
     "last-sync": "c6430f5ba330f554a5bc2d29b65f74e7bce26dd7"
 }
