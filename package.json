@@ -12,10 +12,10 @@
     ],
     "keywords": [
         "SearchPanes",
-        "search",
-        "filtering",
+ "search",
+ "filtering",
         "Bootstrap",
-        "Bootstrap4",
+ "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": ">=1.4.0",
-        "datatables.net-bs4": ">=1.11.3",
+        "datatables.net-searchpanes": ">=2.0.0",
+        "datatables.net-bs4": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [

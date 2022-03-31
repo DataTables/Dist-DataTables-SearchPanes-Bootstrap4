@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>SearchPanes  search  filtering  Bootstrap  Bootstrap4  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchpanes" version="1.4.0"/>
-            <dependency id="datatables.net-bs4" version="1.11.3"/>
+            <dependency id="datatables.net-searchpanes" version="2.0.0"/>
+            <dependency id="datatables.net-bs4" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/searchPanes.bootstrap4.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/searchPanes.bootstrap4.min.css" target="content\Content"/>
         <file src="css/searchPanes.bootstrap4.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/searchPanes.bootstrap4.d.ts" target="content\Scripts"/>
-        <file src="types/searchPanes.bootstrap4.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
