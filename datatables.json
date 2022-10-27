@@ -10,7 +10,8 @@
         "css/searchPanes.bootstrap4.min.css"
     ],
     "types": [
-        "types/searchPanes.bootstrap4.d.ts"
+        "types/searchPanes.bootstrap4.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
     "last-tag": "2.0.2"
