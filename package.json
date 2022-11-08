@@ -5,7 +5,7 @@
     "module": "js/searchPanes.bootstrap4.mjs",
     "style": "css/searchPanes.bootstrap4.css",
     "types": "./types/types.d.ts",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "SearchPanes",
- "search",
- "filtering",
+        "search",
+        "filtering",
         "Bootstrap",
- "Bootstrap4",
+        "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
