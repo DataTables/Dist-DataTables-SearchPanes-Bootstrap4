@@ -4,7 +4,7 @@
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bs4';
-import 'datatables.net-searchpanes';
+import SearchPanes from 'datatables.net-searchpanes';
 
 
 $.extend(true, DataTable.SearchPane.classes, {
