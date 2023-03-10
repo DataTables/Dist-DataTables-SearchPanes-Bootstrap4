@@ -5,7 +5,7 @@
     "module": "js/searchPanes.bootstrap4.mjs",
     "style": "css/searchPanes.bootstrap4.css",
     "types": "./types/types.d.ts",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
