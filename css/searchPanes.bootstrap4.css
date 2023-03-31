@@ -89,8 +89,8 @@ div.dtsp-topRow.dtsp-bordered:hover {
   cursor: pointer !important;
 }
 
-div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane table thead th,
-div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane table thead td {
+div.dtsp-searchPane table thead th,
+div.dtsp-searchPane table thead td {
   width: 100% !important;
 }
 
@@ -175,33 +175,34 @@ div.dt-button-collection {
 div.dtsp-panesContainer {
   margin-bottom: 1em;
 }
-div.dtsp-panesContainer div.dataTables_wrapper {
+
+div.dtsp-searchPane div.dataTables_wrapper {
   width: 100%;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_layout_cell {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_layout_cell {
   padding: 0;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollHead {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollHead {
   display: none !important;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody {
   background: white !important;
   border-bottom: none;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody thead {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody thead {
   display: none;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody table {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody table {
   table-layout: fixed;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody table tr > th,
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody table tr > td {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody table tr > th,
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody table tr > td {
   padding: 5px 10px;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody td.dtsp-nameColumn {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody td.dtsp-nameColumn {
   width: 100% !important;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -209,11 +210,11 @@ div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dts
   align-content: flex-start;
   align-items: flex-start;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-name,
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-name,
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   cursor: default;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-name {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-name {
   text-overflow: ellipsis;
   overflow: hidden;
   display: inline-block;
@@ -222,7 +223,7 @@ div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dts
   flex-grow: 1;
   text-align: left;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill {
   display: inline-block;
   background-color: #cfcfcf;
   text-align: center;
@@ -234,7 +235,7 @@ div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dts
   font-size: 0.9em;
   padding: 0 4px;
 }
-div.dtsp-panesContainer div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill:empty {
+div.dtsp-searchPane div.dataTables_wrapper div.dataTables_scrollBody div.dtsp-nameCont span.dtsp-pill:empty {
   display: none;
 }
 
