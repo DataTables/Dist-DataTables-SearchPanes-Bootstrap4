@@ -1,5 +1,4 @@
 {
-    "version": "2.0.2",
     "name": "datatables.net/datatables.net-searchpanes-bs4",
     "description": "The SearchPanes extension for DataTables provides improved Searching functionality allowing users to select options from a Pane which will then in turn search the DataTable and return the relevant results. There are multiple configuration options available to enhance SearchPanes. This is SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "support": {
@@ -20,10 +19,10 @@
     "minimum-stability": "dev",
     "keywords": [
         "SearchPanes",
- "search",
- "filtering",
+        "search",
+        "filtering",
         "Bootstrap",
- "Bootstrap4",
+        "Bootstrap4",
         "Datatables",
         "jQuery",
         "table"
