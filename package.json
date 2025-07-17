@@ -5,7 +5,7 @@
     "module": "js/searchPanes.bootstrap4.mjs",
     "style": "css/searchPanes.bootstrap4.css",
     "types": "./types/searchPanes.bootstrap4.d.ts",
-    "version": "2.3.3",
+    "version": "2.3.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": "2.3.3",
+        "datatables.net-searchpanes": "2.3.4",
         "datatables.net-bs4": "^2",
         "jquery": ">=1.7"
     },
