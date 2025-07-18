@@ -325,7 +325,8 @@ div.dtsp-panesContainer button.dtsp-showAll {
   float: right;
 }
 
-div.dtsp-hidden {
+div.dtsp-hidden,
+div.dts.dtsp-hidden {
   display: none !important;
 }
 
