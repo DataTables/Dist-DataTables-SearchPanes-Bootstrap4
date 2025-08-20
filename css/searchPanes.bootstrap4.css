@@ -179,6 +179,8 @@ div.dt-button-collection div.dtsp-panesContainer {
 
 div.dtsp-panesContainer {
   margin-bottom: 1em;
+  max-width: 100%;
+  flex-grow: 1;
 }
 
 div.dtsp-searchPane div.dt-container,
@@ -189,8 +191,12 @@ div.dtsp-searchPane div.dt-container div.dataTables_layout_cell,
 div.dtsp-searchPane div.dataTables_wrapper div.dataTables_layout_cell {
   padding: 0;
 }
-div.dtsp-searchPane div.dt-container div.dt-layout-row:not(.dt-layout-table),
-div.dtsp-searchPane div.dataTables_wrapper div.dt-layout-row:not(.dt-layout-table) {
+div.dtsp-searchPane div.dt-container div.dt-layout-row,
+div.dtsp-searchPane div.dataTables_wrapper div.dt-layout-row {
+  margin: 0;
+}
+div.dtsp-searchPane div.dt-container div.dt-layout-row div.dt-scroll,
+div.dtsp-searchPane div.dataTables_wrapper div.dt-layout-row div.dt-scroll {
   margin: 0;
 }
 div.dtsp-searchPane div.dt-container div.dt-scroll-head,
