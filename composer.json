@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-searchpanes-bs4",
-    "description": "The SearchPanes extension for DataTables provides improved Searching functionality allowing users to select options from a Pane which will then in turn search the DataTable and return the relevant results. There are multiple configuration options available to enhance SearchPanes. This is SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "description": "SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4"
@@ -28,7 +28,8 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-searchpanes": ">=2.0.2",
-        "datatables.net/datatables.net-bs4": ">=1.12.1"
+        "datatables.net/datatables.net-searchpanes": "2.3.5",
+        "datatables.net/datatables.net-bs4": "^2",
+        "datatables.net/jquery": ">=1.7"
     }
 }
