@@ -52,9 +52,10 @@
     "exports": {
         ".": {
             "types": "./types/searchPanes.bootstrap4.d.ts",
+            "style": "./css/searchPanes.bootstrap4.css",
             "import": "./js/searchPanes.bootstrap4.mjs",
-            "default": "./js/searchPanes.bootstrap4.mjs",
-            "require": "./js/searchPanes.bootstrap4.js"
+            "require": "./js/searchPanes.bootstrap4.js",
+            "default": "./js/searchPanes.bootstrap4.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
