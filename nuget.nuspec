@@ -4,20 +4,22 @@
         <version>2.3.5</version>
         <id>datatables.net-searchpanes-bs4</id>
         <description>This is SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)</description>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-SearchPanes-Bootstrap4.git"/>
+        <repository type="git" url="https://github.com/DataTables/SearchPanes"/>
         <authors>SpryMedia Ltd</authors>
         <projectUrl>http://datatables.net</projectUrl>
         <license type="expression">MIT</license>
-        <tags>SearchPanes  search  filtering  Bootstrap  Bootstrap4  Datatables jQuery table</tags>
+        <tags>SearchPanes  search  filtering  Bootstrap  Bootstrap4  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchpanes" version="2.3.4"/>
+            <dependency id="datatables.net-searchpanes" version="3.0.0-beta.1"/>
             <dependency id="datatables.net-bs4" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
         </contentFiles>
+        <readme>Readme.md</readme>
     </metadata>
     <files>
+        <file src="Readme.md" target=""/>
         <file src="js/searchPanes.bootstrap4.js" target="content\Scripts"/>
         <file src="js/searchPanes.bootstrap4.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/searchPanes.bootstrap4.min.js" target="content\Scripts"/>
@@ -32,4 +34,3 @@
         <file src="css/searchPanes.bootstrap4.min.css" target="contentFiles\any\any\wwwroot\css"/>
     </files>
 </package>
-
