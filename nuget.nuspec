@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>3.0.0</version>
+        <version>3.0.1</version>
         <id>datatables.net-searchpanes-bs4</id>
         <description>This is SearchPanes for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)</description>
         <authors>SpryMedia Ltd</authors>
@@ -9,7 +9,7 @@
         <license type="file">License.txt</license>
         <tags>SearchPanes  search  filtering  Bootstrap  Bootstrap4  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchpanes" version="3.0.0"/>
+            <dependency id="datatables.net-searchpanes" version="3.0.1"/>
             <dependency id="datatables.net-bs4" version="[3.1.0, 4.0.0)"/>
         </dependencies>
         <contentFiles>
